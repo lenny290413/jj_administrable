@@ -1,0 +1,81 @@
+.Cierres h5{
+	font-family: "arial";
+	font-weight: bold;
+	text-align: left;
+	font-size: 18px;
+	color: #fff;
+	text-shadow: 2px 2px #1d70b7;
+}
+
+
+.Cierres h1{
+	font-size: 20px;
+	margin-bottom: 140px;
+}
+
+.Cierres h2{
+	text-align: center;
+	color: #f4e62e;
+	font-family: 'monotype corsiva';
+	font-size: 40px;
+	text-shadow: 5px 5px 5px #000;
+}
+
+
+.Cierres h3{
+	font-family: "arial";
+	font-weight: bold;
+	text-align: center;
+	color: #fff;
+	text-shadow: 2px 2px #1d70b7;
+}
+
+.Cierres h4{
+	font-family: "calibri";
+	font-weight: bold;
+	text-align: center;
+	color: #000; 
+}
+
+
+
+.Cierres li, p{
+	font-family: "calibri";
+	font-weight: bold;
+	text-align: left;
+	margin-bottom: 8px;
+	font-size: 15px;
+}
+
+.planillas, .tributario  {
+
+    background: url(../images/fondo.jpg) no-repeat top ;
+    border-radius: 35px;
+	margin: 8%;
+	padding: 5px 18px;
+
+}
+
+.right{
+    float: right;
+    width: 50%;
+}
+
+.left {
+    float: left;
+    width: 50%;
+}
+
+.center {
+	float: left;
+    width: 100%;
+}
+
+.tabla{
+	background: url(../images/fondo2.png) ;
+	margin-left: 8%;
+	margin-right: 8%;
+	margin-bottom: 3%;
+	border-radius: 35px;
+	padding: 5px 18px;
+}
