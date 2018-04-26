@@ -44,9 +44,7 @@
     <link rel="stylesheet" type="text/css" href="js/revolutionslider/css/fullwidth.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="js/revolutionslider/rs-plugin/css/settings.css" media="screen" />
 
-    <!-- jquery jcarousel -->
-    <link rel="stylesheet" type="text/css" href="js/jcarousel/skin.css" />
-    <link rel="stylesheet" type="text/css" href="js/jcarousel/skin2.css" />
+
 
     <!-- faqs -->
     <link rel="stylesheet" href="js/accordion/accordion.css" type="text/css" media="all">
@@ -59,9 +57,10 @@
     <!--LENIN ESTILOS-->
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/estilos_lenin.css">
+    <link rel="stylesheet" href="css/blog.css">
     <link rel="stylesheet" href="css/panel.css">
     <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-
+    <link rel="stylesheet" href="tiny/tiny.css" />
 
     <!--END LENIN STYLES-->
 </head>
@@ -122,14 +121,32 @@
                         <input name="autor" type="text" placeholder="Autor">
                         <input name="imagen" type="text" placeholder="Link de la imagen">
                         <input name="link" type="text" placeholder="Link del articulo">
-                        <textarea name="descripcion" placeholder="Descripcion"></textarea>
+                        <textarea placeholder="Descripcion" name="descripcion" id="input" style="width:100%; height:200px" ></textarea>
                         <button>Publicar</button>
                     </form>
+                </div>
+                <h2 class="sub_titulo">Articulos creados</h2>
+                <form action="php/eliminar.php">
+                    <input name="codigo_eliminar" type="text" placeholder="Escribe el CODIGO del articulo que deseas eliminar"> 
+                    <button>Eliminar</button>
+                </form>
+                <div class="blog_contenido entero">
+                    <div class="medio">
+                        <?php
+                        include ('php/actualizar.php');  
+                        ?>
+
+
+                    </div>
                 </div>
             </div>
         </div>
 
-
+        <!-- <div class="ventana ">
+        <p class="confirmacion ocultar">Articulo añadido</p>
+        <p class="mal ocultar">Ocurrio un error, contacta con el administrador</p>
+        <button>Cerrar</button>
+    </div>-->
     </div>
     <div class="footer entero">
 
@@ -206,26 +223,6 @@
 
     <!-- ######### JS FILES ######### -->
     <script type="text/javascript" src="js/wow.min.js"></script>
-    <script>
-        new WOW().init();
-        $('.owl-carousel').owlCarousel({
-            loop: true,
-            margin: 10,
-            nav: true,
-            responsive: {
-                0: {
-                    items: 1
-                },
-                600: {
-                    items: 3
-                },
-                1000: {
-                    items: 4
-                }
-            }
-        })
-
-    </script>
 
     <!-- get jQuery from the google apis -->
     <script type="text/javascript" src="js/universal/jquery.js"></script>
@@ -357,8 +354,33 @@
 
     </script>
 
-
-
+<!--JS DE TINY BY LENIN-->
+<script type="text/javascript" src="tiny/tinyeditor.js"></script>
+<script type="text/javascript" src="tiny/packed.js"></script>
+<script type="text/javascript">
+new TINY.editor.edit('editor',{
+	id:'input',
+	width:584,
+	height:175,
+	cssclass:'te',
+	controlclass:'tecontrol',
+	rowclass:'teheader',
+	dividerclass:'tedivider',
+	controls:['bold','italic','underline','strikethrough','|','subscript','superscript','|',
+			  'orderedlist','unorderedlist','|','outdent','indent','|','leftalign',
+			  'centeralign','rightalign','blockjustify','|','unformat','|','undo','redo','n',
+			  'font','size','style','|','image','hr','link','unlink','|','cut','copy','paste','print'],
+	footer:true,
+	fonts:['Verdana','Arial','Georgia','Trebuchet MS'],
+	xhtml:true,
+	cssfile:'tiny/tiny.css',
+	bodyid:'editor',
+	footerclass:'tefooter',
+	toggle:{text:'show source',activetext:'show wysiwyg',cssclass:'toggle'},
+	resize:{cssclass:'resize'}
+});
+</script>
+<!--END TINY-->
 </body>
 
 </html>

@@ -57,9 +57,13 @@ body {
   border: 1px solid #DFE0E0;
   height: auto !important;
   border-radius: 5px;
-  overflow: hidden; }
+  overflow: hidden;
+  padding-bottom: 20px; }
   .blog_item_index img {
-    width: 100%; }
+    width: 100%;
+    height: 250px;
+    -o-object-fit: cover;
+    object-fit: cover; }
   .blog_item_index h3 {
     margin: 5px 0;
     border-bottom: 1px solid #ccc;
@@ -76,6 +80,11 @@ body {
     .blog_item_index span i {
       margin: 10px;
       line-height: 20px; }
+
+.codigo {
+  padding-bottom: 50px;
+  color: red;
+  margin: 5px; }
 
 @media screen and (max-width: 768px) {
   .blog_item_index {
