@@ -60,6 +60,7 @@
     <link rel="stylesheet" href="css/blog.css">
     <link rel="stylesheet" href="css/panel.css">
     <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <link rel="stylesheet" href="tiny/tiny.css" />
 
     <!--END LENIN STYLES-->
 </head>
@@ -111,16 +112,21 @@
 
         <div class="entero">
             <div class="medio">
-                <h1>PANEL DE CONTROL</h1>
-                <div class="botones">
-                    <a href="crear_articulo.php">Crear Articulo</a>
-                    <a href="crear_articulo.php">Editar Articulo</a>
-                    <a href="crear_articulo.php">Eliminar Articulo</a>
-                    <a href="crear_articulo.php">Buscar Articulo</a>
+                <h1>CREAR ARTICULO</h1>
+                <div class="crear">
+                    <form action="php/crear.php" method="post">
+                        <input name="titulo" type="text" placeholder="Titulo">
+                        <input name="fecha" type="date" placeholder="Fecha">
+                        <input name="autor" type="text" placeholder="Autor">
+                        <input name="imagen" type="text" placeholder="Link de la imagen">
+                        <input name="link" type="text" placeholder="Link del articulo">
+                        <textarea placeholder="Descripcion" name="descripcion" id="input" style="width:100%; height:200px" ></textarea>
+                        <button>Publicar</button>
+                    </form>
                 </div>
+                
             </div>
         </div>
-
 
     </div>
     <div class="footer entero">
@@ -193,6 +199,9 @@
 
 
 
+
+
+
     <!-- ######### JS FILES ######### -->
     <script type="text/javascript" src="js/wow.min.js"></script>
 
@@ -221,16 +230,138 @@
 
 
 
+    <!-- jquery jcarousel -->
+    <script type="text/javascript">
+        jQuery(document).ready(function() {
+            jQuery('#mycarousel').jcarousel();
+        });
+
+        jQuery(document).ready(function() {
+            jQuery('#mycarouseltwo').jcarousel();
+        });
+
+        jQuery(document).ready(function() {
+            jQuery('#mycarouselthree').jcarousel();
+        });
+
+        jQuery(document).ready(function() {
+            jQuery('#mycarouselfour').jcarousel();
+        });
+
+    </script>
+
     <!-- accordion -->
     <script type="text/javascript" src="js/accordion/custom.js"></script>
 
+    <!-- REVOLUTION SLIDER -->
+    <script type="text/javascript">
+        var tpj = jQuery;
+        tpj.noConflict();
+
+        tpj(document).ready(function() {
+
+            if (tpj.fn.cssOriginal != undefined)
+                tpj.fn.css = tpj.fn.cssOriginal;
+
+            var api = tpj('.fullwidthbanner').revolution({
+                delay: 9000,
+                startwidth: 1170,
+                startheight: 500,
+
+                onHoverStop: "on", // Stop Banner Timet at Hover on Slide on/off
+
+                thumbWidth: 100, // Thumb With and Height and Amount (only if navigation Tyope set to thumb !)
+                thumbHeight: 50,
+                thumbAmount: 3,
+
+                hideThumbs: 200,
+                navigationType: "none", // bullet, thumb, none
+                navigationArrows: "solo", // nexttobullets, solo (old name verticalcentered), none
+
+                navigationStyle: "round", // round,square,navbar,round-old,square-old,navbar-old, or any from the list in the docu (choose between 50+ different item), custom
+
+
+                navigationHAlign: "center", // Vertical Align top,center,bottom
+                navigationVAlign: "bottom", // Horizontal Align left,center,right
+                navigationHOffset: 30,
+                navigationVOffset: -40,
+
+                soloArrowLeftHalign: "left",
+                soloArrowLeftValign: "center",
+                soloArrowLeftHOffset: 0,
+                soloArrowLeftVOffset: 0,
+
+                soloArrowRightHalign: "right",
+                soloArrowRightValign: "center",
+                soloArrowRightHOffset: 0,
+                soloArrowRightVOffset: 0,
+
+                touchenabled: "on", // Enable Swipe Function : on/off
+
+
+                stopAtSlide: -1, // Stop Timer if Slide "x" has been Reached. If stopAfterLoops set to 0, then it stops already in the first Loop at slide X which defined. -1 means do not stop at any slide. stopAfterLoops has no sinn in this case.
+                stopAfterLoops: -1, // Stop Timer if All slides has been played "x" times. IT will stop at THe slide which is defined via stopAtSlide:x, if set to -1 slide never stop automatic
+
+                hideCaptionAtLimit: 0, // It Defines if a caption should be shown under a Screen Resolution ( Basod on The Width of Browser)
+                hideAllCaptionAtLilmit: 0, // Hide all The Captions if Width of Browser is less then this value
+                hideSliderAtLimit: 0, // Hide the whole slider, and stop also functions if Width of Browser is less than this value
+
+
+                fullWidth: "on",
+
+                shadow: 0 //0 = no Shadow, 1,2,3 = 3 Different Art of Shadows -  (No Shadow in Fullwidth Version !)
+
+            });
+
+        });
+
+    </script>
 
     <script type="text/javascript" src="js/sticky-menu/core.js"></script>
     <script type="text/javascript" src="js/sticky-menu/modernizr.custom.75180.js"></script>
 
     <!-- testimonials -->
+    <script type="text/javascript">
+        //<![CDATA[ 
+        $(window).load(function() {
+            $(".controlls li a").click(function(e) {
+                e.preventDefault();
+                var id = $(this).attr('class');
+                $('#slider div:visible').fadeOut(500, function() {
+                    $('div#' + id).fadeIn();
+                })
+            });
+        }); //]]>
 
+    </script>
 
+<!--JS DE TINY BY LENIN-->
+<script type="text/javascript" src="tiny/tinyeditor.js"></script>
+<script type="text/javascript" src="tiny/packed.js"></script>
+<script type="text/javascript">
+new TINY.editor.edit('editor',{
+	id:'input',
+	width:584,
+	height:175,
+	cssclass:'te',
+	controlclass:'tecontrol',
+	rowclass:'teheader',
+	dividerclass:'tedivider',
+	controls:['bold','italic','underline','strikethrough','|','subscript','superscript','|',
+			  'orderedlist','unorderedlist','|','outdent','indent','|','leftalign',
+			  'centeralign','rightalign','blockjustify','|','unformat','|','undo','redo','n',
+			  'font','size','style','|','image','hr','link','unlink','|','cut','copy','paste','print'],
+	footer:true,
+	fonts:['Verdana','Arial','Georgia','Trebuchet MS'],
+	xhtml:true,
+	cssfile:'tiny/tiny.css',
+	bodyid:'editor',
+	footerclass:'tefooter',
+	toggle:{text:'show source',activetext:'show wysiwyg',cssclass:'toggle'},
+	resize:{cssclass:'resize'}
+});
+</script>
+<!--END TINY-->
 </body>
 
 </html>

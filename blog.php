@@ -156,7 +156,6 @@
 
                     <?php
                     include("php/actualizar.php");
-                    actualizar();
                     ?>
 
 

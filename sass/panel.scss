@@ -1,3 +1,41 @@
+.botones{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    a{
+        width: 200px;
+        height: 200px;
+        margin: 10px;
+        display: block;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 20px;
+        &:first-child{
+            background: #295A5F;
+            border-bottom: 10px solid darken(#295A5F,10);
+            border-right: 10px solid darken(#295A5F,10);
+        }
+        &:nth-child(2){
+            background: #8BB58F;
+            border-bottom: 10px solid darken(#8BB58F,10);
+            border-right: 10px solid darken(#8BB58F,10);
+        }
+        &:nth-child(3){
+            background: #BBDEBD;
+            border-bottom: 10px solid darken(#BBDEBD,10);
+            border-right: 10px solid darken(#BBDEBD,10);
+        }
+        &:last-child{
+            background: #EFF3D2;
+            border-bottom: 10px solid darken(#EFF3D2,10);
+            border-right: 10px solid darken(#EFF3D2,10);
+        }
+    }
+}
 h1{
     text-align: center;
     font-size: 25px;
@@ -10,6 +48,7 @@ form{
     flex-direction: column;
     width: 100% !important;
 }
+
 
 /*.ventana{
     position: fixed;
