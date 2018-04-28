@@ -1,7 +1,6 @@
-<?php 
-    $contenido= "
-    
-    <!doctype html>
+<?php
+$contenido= "
+   <!doctype html>
     
     <html lang='en-gb' class='no-js'>
 
@@ -58,9 +57,7 @@
     <!--LENIN ESTILOS-->
     <link rel='stylesheet' href='../css/animate.css'>
     <link rel='stylesheet' href='../css/estilos_lenin.css'>
-    <link rel='stylesheet' href='../css/servicios.css'>
-    <link rel='stylesheet' href='../css/owl.carousel.min.css'>
-    <link rel='stylesheet' href='../css/owl.theme.default.min.css'>
+    <link rel='stylesheet' href='../css/articulo.css'>
     <script src='https://code.jquery.com/jquery-1.11.3.min.js'></script>
     <script src='../css/owl.carousel.min.js'></script>
 
@@ -136,9 +133,18 @@
         </header>
         <!-- end header -->
 
-            <h1>$titulo</h1>
-            <h1>$fecha</h1>
-            <h1>$autor</h1>
+            <div class='entero contenido_articulo'>
+                <div class='medio contenido_articulo'>
+                    <img class='imagen_principal' src='$imagen' alt=''>
+                    <h1 class='titulo'>$titulo</h1>
+                    <span class='datos'>
+                        <p class='fecha'>Fecha de publicacion: $fecha</p>
+                        <p class='autor'>Autor: $autor</p>
+                    </span>
+                    <p class='info_aritulo'>$descripcion</p>
+
+                </div>
+            </div>
         <div class='footer entero'>
 
             <div class='container medio'>
@@ -339,13 +345,8 @@
 
 
 
-</body>
+</body> 
 
 </html>
 
-    
-    
-    
-    ";
-
-?>
+"; ?>

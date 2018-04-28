@@ -132,15 +132,15 @@
         </header>
         <!-- end header -->
 
-            <div class='entero contenido_articulo'>
+            <div class='entero'>
                 <div class='medio contenido_articulo'>
-                    <img class='imagen_principal' src='' alt=''>
-                    <h1 class='titulo'>lein</h1>
+                    <img class='imagen_principal' src='https://www.moutecdigital.com/blog/wp-content/uploads/2017/05/captar-clientes-para-tu-estudio-contable.png' alt=''>
+                    <h1 class='titulo'>Pago de utilidades a los trabajadores</h1>
                     <span class='datos'>
-                        <p class='fecha'>Fecha de publicacion: </p>
-                        <p class='autor'>Autor: </p>
+                        <p class='fecha'>Fecha de publicacion: 2018-04-28</p>
+                        <p class='autor'>Autor: Lenin Gonzales </p>
                     </span>
-                    <p class='info_aritulo'><ul style="box-sizing: border-box; list-style-position: initial; list-style-image: initial; margin: 0px 0px 1.5rem 2.5rem; padding: 0px; color: rgb(102, 102, 102); font-family: &quot;Open Sans&quot;, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);"><li style="box-sizing: border-box; margin: 0px 0px 0.5rem;">Solo recibirán este beneficio aquellos trabajadores que hayan tenido ingresos superiores a las 7 UIT (S/ 28,350) en el pasado ejercicio gravable (2017) y posean&nbsp;<a href="http://estudiocontablevmc.pe/retorno-impuesto-la-renta-personas-naturales/" style="box-sizing: border-box; outline: 0px; text-decoration-line: none; background-color: transparent; transition-property: background-color, box-shadow, border, color, opacity, transform; transition-duration: 0.3s; color: rgb(27, 152, 224);">gastos deducibles</a>.</li><li style="box-sizing: border-box; margin: 0px 0px 0.5rem;">Si bien la norma incluye a los trabajadores de cuarta y quinta categoría, por ahora se aplicará de manera automática solamente a los trabajadores de quinta categoría (en planilla). Esta excepción se debe a que el portal cuenta con toda la información brindada por el empleador y puede hacer la devolución sin intervención del trabajador.</li><li style="box-sizing: border-box; margin: 0px 0px 0.5rem;">Aquellos contribuyentes que perciben rentas de cuarta categoría deben hacer el trámite de manera manual.</li></ul></p>
+                    <p class='info_aritulo'><p style="box-sizing: border-box; margin: 0px 0px 1.5rem; color: rgb(102, 102, 102); font-family: &quot;Open Sans&quot;, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);">El cálculo de las utilidades toma en cuenta dos aspectos: el&nbsp;<span style="box-sizing: border-box; font-weight: 700;">50% corresponde a los días laborados</span>&nbsp;por cada trabajador (no se cuentan faltas justificadas o injustificadas) y el&nbsp;<span style="box-sizing: border-box; font-weight: 700;">otro 50% a las remuneraciones percibidas</span>&nbsp;durante el año, esto incluye: la remuneración básica y la asignación familiar. A más días laborados, mayor será el monto que recibirá. Por ende, su suma no será la misma para todos los trabajadores.</p><p style="box-sizing: border-box; margin: 0px 0px 1.5rem; color: rgb(102, 102, 102); font-family: &quot;Open Sans&quot;, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);">Es importante señalar que&nbsp;<span style="box-sizing: border-box; font-weight: 700;">el porcentaje de pago varía dependiendo del rubro</span>&nbsp;en el que se desempeñe la empresa. Por ejemplo, los comercios y restaurantes están obligados a cancelar el 8% de sus ganancias, mientras que el rubro de las telecomunicaciones debe distribuir el 10%.+</p><p style="text-align: center; box-sizing: border-box; margin: 0px 0px 1.5rem; color: rgb(102, 102, 102); font-family: &quot;Open Sans&quot;, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);"><img src="https://pymex.pe/wp-content/uploads/2016/08/estudio-contable.jpg" /></p></p>
 
                 </div>
             </div>
