@@ -76,6 +76,52 @@ body{
     color: red;
     margin: 5px;
 }
+.compartido{
+  display: flex;
+  width: 100%;
+  input{
+    width: 80%;
+  }
+  button{
+
+  }
+}
+
+/*ELIMINAR*/
+/*
+<div class="grupo_datos">
+<div class="grupo_items">
+<span><?php echo $fila ['codigo']; ?></span>
+<span><?php echo $fila ['titulo']; ?></span>
+<span><?php echo $fila ['autor']; ?></span>
+</div>
+</div>*/
+
+.grupo_datos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+.grupo_items{
+    margin-bottom: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    span{
+        flex: auto;
+        border-bottom: 1px solid rgba(#ccc,.5);
+        padding: 10px 0;
+        width: 33%;
+        text-align: center;
+        &:nth-child(2), &:first-child{
+            border-right: 1px solid #ccc;
+        }
+    }
+}
+/*EMD ELIMINAR*/
 @media screen and (max-width:768px){
     .blog_item_index{
         flex: auto;

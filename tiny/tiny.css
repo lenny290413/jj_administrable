@@ -1,6 +1,6 @@
 body {margin:0; font:12px Verdana,Arial}
 #input {border:none; margin:0; padding:0; font:14px 'Courier New',Verdana; border:0}
-.te {border:1px solid #bbb; padding:0 1px 1px; font:12px Verdana,Arial; margin:25px;  width: 100% !important; max-width: 100% !important;}
+.te {border:1px solid #bbb; padding:0 1px 1px; font:12px Verdana,Arial; margin:25px;  width: 100% !important; max-width: 90% !important;}
 .te iframe {border:none}
 .teheader {border-bottom:1px solid #bbb; background:url(images/header-bg.gif) repeat; padding-top:1px}
 .teheader select {float:left; margin-top:5px}
@@ -15,3 +15,6 @@ body {margin:0; font:12px Verdana,Arial}
 .toggle:hover {background-color:#fff}
 .resize {float:right; height:32px; width:32px; background:url(images/resize.gif) 15px 15px no-repeat; cursor:s-resize}
 #editor {cursor:text; margin:10px}
+iframe{
+    width: 100% !important;
+}

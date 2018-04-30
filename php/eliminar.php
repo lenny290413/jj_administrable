@@ -1,27 +1,17 @@
-<?php 
-    include('cn.php');
-    $codigo = $_GET["codigo_eliminar"];
-    
-    
-    $consultar= "select COUNT(codigo)from articulos where codigo ='$codigo'";
-    if($consultar>=0){
-        $eliminar = "delete from articulos where codigo='$codigo'";  
-        mysql_query($eliminar);
-        echo "
-        <script>
-           alert('Articulo eliminado');
-           window.history.go(-1);
-        </script>";
-        include ("actualizar.php");
-        Header("location:../panel_de_control.php");
-    }else{
-        echo "
-         <script>
-           alert('Articulo no encontrado, verifique el codigo');
-           window.history.go(-1);
-        </script>";
-        include ("actualizar.php");
-        Header("location:../panel_de_control.php");
-    }
+<?php
+$conexion = mysqli_connect("localhost", "root", "");
+mysqli_select_db($conexion, "blog_jj");
+mysqli_set_charset($conexion, 'utf8');
 
+if ($conexion){
+    $consulta= "SELECT codigo, titulo, autor FROM articulos";
+    $resultado = mysqli_query($conexion, $consulta);
+while ($fila =mysqli_fetch_array($resultado)){?>
+<div class="grupo_items">
+    <span><?php echo $fila ['codigo']; ?></span>
+    <span><?php echo $fila ['titulo']; ?></span>
+    <span><?php echo $fila ['autor']; ?></span>
+</div>
+<?php
+}}
 ?>

@@ -119,12 +119,10 @@
                         <input name="fecha" type="date" placeholder="Fecha">
                         <input name="autor" type="text" placeholder="Autor">
                         <input name="imagen" type="text" placeholder="Link de la imagen">
-                        <input name="link" type="text" placeholder="Link del articulo">
                         <textarea placeholder="Descripcion" name="descripcion" id="input" style="width:100%; height:200px" ></textarea>
                         <button>Publicar</button>
                     </form>
                 </div>
-                
             </div>
         </div>
 
