@@ -216,7 +216,13 @@ svg {
     top: 30px;
     left: 118px;
 }
-
+.li_servicios{
+   li{
+       line-height: 25px;
+       margin: 5px !important;
+       list-style: disc;
+   }
+}
 @media screen and (max-width:1300px) {
     .circulo_triangulo {
         top: 30px;
@@ -373,7 +379,7 @@ svg {
     p {
         font-size: 14px;
         line-height: 20px;
-        margin-bottom: 30px !important;
+        margin-bottom: 10px !important;
     }
     a {
         padding: 10px 20px;
@@ -392,7 +398,9 @@ svg {
 .mostrar {
     display: block;
 }
-
+.color{
+    color: #fece1b;
+}
 .borde {
     stroke: black !important;
     stroke-width: 2 !important;

@@ -1,11 +1,14 @@
 <?php
-$conexion = mysql_connect("localhost", "root", "");
-mysql_select_db("blog_jj",$conexion);
+$conexion = mysqli_connect("localhost", "root", "");
+mysqli_select_db($conexion, "blog_jj");
+mysqli_set_charset($conexion, 'utf8');
+
 if (!$conexion) {
     echo "Error: No se pudo conectar a MySQL." . PHP_EOL;
     echo "errno de depuración: " . mysqli_connect_errno() . PHP_EOL;
-    echo "error de depuración: " . mysqli_connect_error() . PHP_EOL;
     exit;
+    die();
 }else{
+
 }
 ?>

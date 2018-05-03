@@ -9,7 +9,7 @@ $resultado=mysqli_query($conexion,$consulta);
 $filas=mysqli_num_rows($resultado);
 
 if ($filas>0){
-    header("location:../blog.php");
+    header("location:../panel_de_control.php");
 }
 else {
     header("location:../login_error.php");

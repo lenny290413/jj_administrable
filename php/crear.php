@@ -10,7 +10,7 @@
     $link_articulo = "blog/".$titulo_formateado.".php";
     $consulta = "INSERT INTO articulos(codigo,titulo,descripcion,fecha,autor,imagen,link) VALUES('dfds','$titulo','$descripcion','$fecha','$autor','$imagen','$link_articulo')";
 
-mysql_query($consulta);
+mysqli_query($conexion,$consulta);
 if($consulta = true){
     $link_articulos = fopen("../blog/".$titulo_formateado.".php","w+");
     require('document.php');

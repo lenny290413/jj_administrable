@@ -92,13 +92,10 @@
                     </a>
                     <span class="contenedor_medio" id="nav">
                         <ul class="menu">
-                            <li><a id="" href="index.html#section1">INICIO</a></li>
-                            <li><a id="" href="index.html#section2">QUIENES SOMOS</a></li>
-                            <li><a id="" href="index.html#section3">SERVICIOS</a></li>
-                            <li><a id="" href="index.html#section4">PLANES</a></li>
-                            <li><a id="" href="index.html#section5">BLOG</a></li>
-                            <li><a id="" href="index.html#section6">CONTACTO</a></li>
-                            <li><a class="clientes" href="guia_clientes.html">GUIA DE  CLIENTES</a></li>
+                            <li><a id="" href="panel_de_control.php">PANEL DE CONTROL</a></li>
+                            <li><a id="" href="crear_articulo.php">CREAR ARTICULO</a></li>
+                            <li><a id="" href="eliminar_articulo.php">ELIMINAR ARTICULO</a></li>
+                            <li><a id="" href="blog.php">BLOG</a></li>
                         </ul>
                        
                     </span>

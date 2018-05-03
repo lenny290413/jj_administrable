@@ -1,5 +1,4 @@
-<?php
-$contenido= "
+
    <!doctype html>
     
     <html lang='en-gb' class='no-js'>
@@ -25,10 +24,6 @@ $contenido= "
 	<![endif]-->
 
 
-    <!-- ######### CSS STYLES ######### -->
-
-    <link rel='stylesheet' href='../css/reset.css' type='text/css' />
-    <link rel='stylesheet' href='../css/style.css' type='text/css' />
 
     <link rel='stylesheet' href='../css/font-awesome/css/font-awesome.min.css'>
 
@@ -59,6 +54,7 @@ $contenido= "
     <link rel='stylesheet' href='../css/estilos_lenin.css'>
     <link rel='stylesheet' href='../css/articulo.css'>
     <script src='https://code.jquery.com/jquery-1.11.3.min.js'></script>
+    <script src='../css/owl.carousel.min.js'></script>
 
 
     <!--END LENIN STYLES-->
@@ -134,13 +130,13 @@ $contenido= "
 
             <div class='entero contenido_articulo'>
                 <div class='medio contenido_articulo'>
-                    <img class='imagen_principal' src='$imagen' alt=''>
-                    <h1 class='titulo'>$titulo</h1>
+                    <img class='imagen_principal' src='asdssd' alt=''>
+                    <h1 class='titulo'>lenin</h1>
                     <span class='datos'>
-                        <p class='fecha'>Fecha de publicacion: $fecha</p>
-                        <p class='autor'>Autor: $autor</p>
+                        <p class='fecha'>Fecha de publicacion: </p>
+                        <p class='autor'>Autor: aaa</p>
                     </span>
-                    <p class='info_aritulo'>$descripcion</p>
+                    <p class='info_aritulo'></p>
 
                 </div>
             </div>
@@ -348,4 +344,3 @@ $contenido= "
 
 </html>
 
-"; ?>

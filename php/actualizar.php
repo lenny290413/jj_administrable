@@ -1,14 +1,9 @@
-<?php   
+<?php
     function actualizar(){
-    // 1) Conexión
-        if ($conexión = mysql_connect("localhost", "root", "")){
-    // 2) Preparar la orden SQL
+        include ('cn.php');
         $consulta= "SELECT*FROM articulos";
-    // 3) Ejecutar la orden y obtener datos
-        mysql_select_db("blog_jj");
-        $datos= mysql_query ($consulta);
-        // 4) Ir Imprimiendo las filas resultantes 
-        while ($fila =mysql_fetch_array($datos)){
+        $datos= mysqli_query ($conexion,$consulta);
+        while ($fila =mysqli_fetch_array($datos)){
 ?>
     <a href=" <?php echo $fila ['link']; ?>" class="blog_item_index" target="_blank">
       <img src="<?php echo $fila ['imagen']; ?>" alt="">
@@ -20,8 +15,7 @@
       <i class="codigo">Codigo: <?php echo $fila ['codigo']; ?></i>
     </a>
 <?php                                     
-    } 
-    } 
+    }
         }
 actualizar(); 
 ?>
