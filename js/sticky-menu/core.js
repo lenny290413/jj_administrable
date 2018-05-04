@@ -19,7 +19,10 @@ $('#btn-menu').on('click', function () {
     $('#nav').toggleClass('movimiento');
 });
 
-
+$('.items_menu').on('click', function () {
+    $('#nav').removeClass('movimiento');
+    console.log("s");
+});
 
 
 jQuery(function (t) {

@@ -544,80 +544,95 @@ svg {
     transition: all .3s; }
 
 .st0 {
-  fill: #5A72B0; }
-
-.st1 {
-  fill: #FFFFFF;
-  stroke: #000000;
-  stroke-width: 0.9607;
-  stroke-miterlimit: 10; }
-
-.st2 {
   fill: #668EBD; }
 
+.st1 {
+  fill: #FEEE00; }
+
+.st2 {
+  font-family: 'Calibri-Bold'; }
+
 .st3 {
-  fill: #85A4D2; }
+  font-size: 13.8113px; }
 
 .st4 {
-  fill: url(#SVGID_1_); }
+  fill: #FFFFFF; }
 
 .st5 {
-  fill: #004C7F; }
+  font-size: 13.8112px; }
 
 .st6 {
-  fill: url(#SVGID_2_); }
+  fill: #85A4D2; }
 
 .st7 {
-  fill: #FFFFFF;
-  stroke: #828383;
-  stroke-width: 0.801;
-  stroke-miterlimit: 10; }
+  fill: #5A72B0; }
 
 .st8 {
-  fill: none;
-  stroke: #839493;
-  stroke-width: 0.8398;
+  fill: #FFFFFF;
+  stroke: #000000;
+  stroke-width: 0.9827;
   stroke-miterlimit: 10; }
 
 .st9 {
-  fill: url(#SVGID_3_);
-  stroke: #FFFFFF;
-  stroke-width: 0.8074;
-  stroke-miterlimit: 10; }
+  fill: none; }
 
 .st10 {
-  fill: url(#SVGID_4_);
-  stroke: #FFFFFF;
-  stroke-width: 0.8074;
-  stroke-miterlimit: 10; }
+  font-family: 'BerlinSansFBDemi-Bold'; }
 
 .st11 {
-  fill: url(#SVGID_5_); }
+  font-size: 14.5786px; }
 
 .st12 {
-  fill: #FFFFFF; }
+  font-family: 'Rockwell-ExtraBold'; }
 
 .st13 {
-  opacity: 0.5;
-  fill: url(#SVGID_6_); }
+  font-size: 14.2427px; }
 
 .st14 {
-  fill: #FEEE00; }
+  font-size: 14.2429px; }
 
 .st15 {
-  fill: #C89628; }
+  fill: url(#SVGID_2_); }
 
 .st16 {
-  font-family: 'Calibri-Bold'; }
+  fill: #004C7F; }
 
 .st17 {
-  font-size: 13.4836px; }
+  fill: url(#SVGID_3_); }
 
 .st18 {
-  font-size: 13.4837px; }
+  fill: #FFFFFF;
+  stroke: #828383;
+  stroke-width: 0.8193;
+  stroke-miterlimit: 10; }
 
 .st19 {
-  font-size: 13.4838px; }
+  fill: none;
+  stroke: #839493;
+  stroke-width: 0.8589;
+  stroke-miterlimit: 10; }
+
+.st20 {
+  fill: url(#SVGID_4_);
+  stroke: #FFFFFF;
+  stroke-width: 0.8258;
+  stroke-miterlimit: 10; }
+
+.st21 {
+  fill: url(#SVGID_5_);
+  stroke: #FFFFFF;
+  stroke-width: 0.8258;
+  stroke-miterlimit: 10; }
+
+.st22 {
+  fill: url(#SVGID_6_); }
+
+.st23 {
+  opacity: 0.5;
+  fill: url(#SVGID_7_); }
+
+.st24 {
+  fill: #C89628; }
 
 /*START EMPEZAR*/
 .elegirnos {
