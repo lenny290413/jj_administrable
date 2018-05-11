@@ -1,7 +1,5 @@
 <?php
-$conexion = mysqli_connect("localhost", "root", "");
-mysqli_select_db($conexion, "blog_jj");
-mysqli_set_charset($conexion, 'utf8');
+include ("cn.php");
 
 if ($conexion){
     $consulta= "SELECT codigo, titulo, autor FROM articulos ";

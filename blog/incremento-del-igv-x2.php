@@ -1,5 +1,4 @@
-<?php
-$contenido= "
+
    <!doctype html>
     
     <html lang='en-gb' class='no-js'>
@@ -116,14 +115,13 @@ $contenido= "
                     </a>
                     <span class='contenedor_medio' id='nav'>
                         <ul class='menu'>
-                            <li><a id='' href='index.php#section1'>INICIO</a></li>
-                            <li><a id='' href='index.php#section2'>QUIENES SOMOS</a></li>
-                            <li><a id='' href='index.php#section3'>SERVICIOS</a></li>
-                            <li><a id='' href='index.php#section4'>PLANES</a></li>
-                            <li><a id='' href='index.php#section5'>BLOG</a></li>
-                            <li><a id='' href='index.php#section6'>CONTACTO</a></li>
-                            <li><a  href='guia_clientes.html'>GUIA DE  CLIENTES</a></li>
-                            <li class='items_menu'><a class='items_menu'  class='clientes' href='https://sigefact.pse.pe/' TARGET='_blank'><img src='http://jjmm.com.pe/nuevo/images/sigefact.png' alt=''></a></li>
+                            <li><a id='' href='index.html#section1'>INICIO</a></li>
+                            <li><a id='' href='index.html#section2'>QUIENES SOMOS</a></li>
+                            <li><a id='' href='index.html#section3'>SERVICIOS</a></li>
+                            <li><a id='' href='index.html#section4'>PLANES</a></li>
+                            <li><a id='' href='index.html#section5'>BLOG</a></li>
+                            <li><a id='' href='index.html#section6'>CONTACTO</a></li>
+                            <li><a class='clientes' href='guia_clientes.html'>GUIA DE  CLIENTES</a></li>
                         </ul>
                        
                     </span>
@@ -136,13 +134,13 @@ $contenido= "
 
             <div class='entero contenido_articulo'>
                 <div class='medio contenido_articulo'>
-                    <img class='imagen_principal' src='$imagen' alt=''>
-                    <h1 class='titulo'>$titulo</h1>
+                    <img class='imagen_principal' src='https://blog.gopymes.pe/wp-content/uploads/2015/10/impuesto-1170x659.jpg' alt=''>
+                    <h1 class='titulo'>incremento del igv x2</h1>
                     <span class='datos'>
-                        <p class='fecha'>Fecha de publicacion: $fecha</p>
-                        <p class='autor'>Autor: $autor</p>
+                        <p class='fecha'>Fecha de publicacion: 2018-05-16</p>
+                        <p class='autor'>Autor: Lenin Gonzales</p>
                     </span>
-                    <p class='info_aritulo'>$descripcion</p>
+                    <p class='info_aritulo'><h2 style="margin: 0px 0px 10px; padding: 0px; font-weight: 400; line-height: 24px; font-family: DauphinPlain; font-size: 24px; background-color: rgb(255, 255, 255);">¿Por qué lo usamos?</h2><p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);">Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto de un sitio mientras que mira su diseño. El punto de usar Lorem Ipsum es que tiene una distribución más o menos normal de las letras, al contrario de usar textos como por ejemplo "Contenido aquí, contenido aquí". Estos textos hacen parecerlo un español que se puede leer. Muchos paquetes de autoedición y editores de páginas web usan el Lorem Ipsum como su texto por defecto, y al hacer una búsqueda de "Lorem Ipsum" va a dar por resultado muchos sitios web que usan este texto si se encuentran en estado de desarrollo. Muchas versiones han evolucionado a través de los años, algunas veces por accidente, otras veces a propósito (por ejemplo insertándole humor y cosas por el estilo).</p><div><h2 style="margin: 0px 0px 10px; padding: 0px; font-weight: 400; line-height: 24px; font-family: DauphinPlain; font-size: 24px; background-color: rgb(255, 255, 255);">¿Por qué lo usamos?</h2><p style="margin: 0px 0px 15px; padding: 0px; text-align: justify; font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);">Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto de un sitio mientras que mira su diseño. El punto de usar Lorem Ipsum es que tiene una distribución más o menos normal de las letras, al contrario de usar textos como por ejemplo "Contenido aquí, contenido aquí". Estos textos hacen parecerlo un español que se puede leer. Muchos paquetes de autoedición y editores de páginas web usan el Lorem Ipsum como su texto por defecto, y al hacer una búsqueda de "Lorem Ipsum" va a dar por resultado muchos sitios web que usan este texto si se encuentran en estado de desarrollo. Muchas versiones han evolucionado a través de los años, algunas veces por accidente, otras veces a propósito (por ejemplo insertándole humor y cosas por el estilo).</p></div><div><br /></div></p>
 
                 </div>
             </div>
@@ -350,4 +348,3 @@ $contenido= "
 
 </html>
 
-"; ?>

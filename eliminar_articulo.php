@@ -1,4 +1,12 @@
-
+<?php
+session_start();
+$var_session = $_SESSION['username'];
+if($var_session == null || $var_session = ''){
+    header("location:login.php");
+    die();
+}else{
+}
+?>
 <!doctype html>
 <!--[if IE 7 ]>    <html lang="en-gb" class="isie ie7 oldie no-js"> <![endif]-->
 <!--[if IE 8 ]>    <html lang="en-gb" class="isie ie8 oldie no-js"> <![endif]-->
@@ -96,6 +104,7 @@
                             <li><a id="" href="panel_de_control.php">PANEL DE CONTROL</a></li>
                             <li><a id="" href="crear_articulo.php">CREAR ARTICULO</a></li>
                             <li><a id="" href="eliminar_articulo.php">ELIMINAR ARTICULO</a></li>
+                            <li><a id="" href="php/cerrar_sesion.php">CERRAR SESION</a></li>
                             <li><a id="" href="blog.php">BLOG</a></li>
                         </ul>
 

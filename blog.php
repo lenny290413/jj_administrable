@@ -106,7 +106,8 @@
                     </ul>
                     <ul class="contacto">
                         <li class="empty"><a href="mailto:contabilidad@jjmm.com.pe"><i class="fa fa-envelope"></i>&nbsp; contabilidad@jjmm.com.pe</a></li>
-                        <li class="empty"><a><i class="fa fa-phone"></i> &nbsp; (01) 425-0125 &nbsp; &nbsp; | &nbsp; &nbsp; (01) 567-0693</a></li>
+                        <li><a href="https://twitter.com/CONTABLEJJMMSAC" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="https://www.youtube.com/channel/UC_3EI0DpkhlLKGBGfvY2oXg" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
                     </ul>
                 </div>
             </div>
@@ -120,13 +121,14 @@
                     </a>
                     <span class="contenedor_medio" id="nav">
                         <ul class="menu">
-                            <li><a id="" href="index.html#section1">INICIO</a></li>
-                            <li><a id="" href="index.html#section2">QUIENES SOMOS</a></li>
-                            <li><a id="" href="index.html#section3">SERVICIOS</a></li>
-                            <li><a id="" href="index.html#section4">PLANES</a></li>
-                            <li><a id="" href="index.html#section5">BLOG</a></li>
-                            <li><a id="" href="index.html#section6">CONTACTO</a></li>
-                            <li><a class="clientes" href="guia_clientes.html">GUIA DE  CLIENTES</a></li>
+                            <li><a id="" href="/">INICIO</a></li>
+                            <li><a id="" href="index.php#section2">QUIENES SOMOS</a></li>
+                            <li><a id="" href="index.php#section3">SERVICIOS</a></li>
+                            <li><a id="" href="index.php#section4">PLANES</a></li>
+                            <li><a id="" href="index.php#section5">BLOG</a></li>
+                            <li><a id="" href="index.php#section6">CONTACTO</a></li>
+                            <li class="items_menu " ><a class="items_menu"  class="clientes" href="guia_clientes.html">GUIA DE  CLIENTES</a></li>
+                            <li class="items_menu" ><a class="items_menu"  class="clientes" href="https://sigefact.pse.pe/" TARGET="_blank"><img src="images/sigefact.png" alt=""></a></li>
                         </ul>
                        
                     </span>
@@ -149,16 +151,10 @@
 
             <div class="blog_contenido entero">
                 <div class="medio">
-
-
-
-
-
                     <?php
                     include("php/actualizar.php");
+                    actualizar();
                     ?>
-
-
                 </div>
         </div>
     </div>
@@ -192,7 +188,7 @@
                         </li>
                         <li> Telefono: (01) 567-0693 | (01) 480-0125
                         </li>
-                        <li> Celular: 951 965 242 | 946 149 001
+                        <li> Celular: 951 965 242 | 952 249 102
                         </li>
                         <li> E-mail: contabilidad@jjmm.com.pe
                         </li>
